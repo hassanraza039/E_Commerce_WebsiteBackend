@@ -3,7 +3,7 @@ dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 import "dotenv/config";
 import mongoose from "mongoose";
-import Product from "./models/Product.js";
+import Product from "./models/product.js";
 
 // Shop ke purane products (productData.js) ko database mein daalne ki script.
 // Script dobara chalane par duplicate nahi banenge (naam ke hisaab se check hota hai).
